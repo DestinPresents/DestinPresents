@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Destin Presents — discover games and apps in one place.">
+  <title>Destin Presents</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Destin Presents home">
+      <span class="brand-mark">D</span>
+      <span>
+        <strong>Destin</strong>
+        <small>Presents</small>
+      </span>
+    </a>
+
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+      <span id="themeIcon">☾</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-badge"><span></span> ONE PLACE • MANY PICKS</div>
+      <h1>Discover something<br><em>worth opening.</em></h1>
+      <p class="hero-text">
+        A simple collection of games and apps, organized in one clean place.
+      </p>
+
+      <div class="search-wrap">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search games & apps..." autocomplete="off">
+        <kbd>/</kbd>
+      </div>
+
+      <div class="hero-actions">
+        <button class="primary-btn" id="shareBtn" type="button">
+          <span>↗</span> Share Destin Presents
+        </button>
+        <span class="mini-note">No account required</span>
+      </div>
+    </section>
+
+    <section class="collection" aria-labelledby="collectionTitle">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">COLLECTION</p>
+          <h2 id="collectionTitle">Games & Apps</h2>
+        </div>
+        <span class="count" id="resultCount">9 picks</span>
+      </div>
+
+      <div class="cards" id="cards"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <div>⌕</div>
+        <h3>No match found</h3>
+        <p>Try a different game or app name.</p>
+      </div>
+    </section>
+
+    <section class="disclosure">
+      <div class="disclosure-icon">ⓘ</div>
+      <div>
+        <h3>Before you continue</h3>
+        <p>
+          Links on this page are provided for convenience. Some links may be referral links,
+          which can provide a benefit to the site owner if an eligible action is completed.
+          Please review each service's own terms, eligibility requirements and policies before using it.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="brand-mark small">D</span>
+      <span><strong>Destin Presents</strong><small>Curated in one place.</small></span>
+    </div>
+    <div class="footer-links">
+      <a href="#privacy" id="privacyLink">Privacy</a>
+      <a href="#disclaimer" id="disclaimerLink">Disclaimer</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Destin Presents. All rights reserved.</p>
+  </footer>
+
+  <dialog id="infoDialog">
+    <div class="dialog-inner">
+      <button class="dialog-close" id="dialogClose" aria-label="Close">×</button>
+      <p class="eyebrow" id="dialogEyebrow">INFO</p>
+      <h2 id="dialogTitle">Privacy</h2>
+      <p id="dialogText"></p>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
