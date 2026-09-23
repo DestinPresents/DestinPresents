@@ -1,5 +1,15 @@
 const apps = [
   {
+    name: "Spin Winner",
+    url: "https://pspinwinner.com/?code=SDND6XPM7GA&t=1790021813",
+    badge: "HOT"
+  },
+  {
+    name: "Ok Rummy",
+    url: "https://www.okrummy18.com/?code=H2GGDU7RSBW&t=1790188944",
+    badge: "HOT"
+}
+  {
     name: "Joy Rummy 11",
     url: "https://www.joyrummy11.com/?code=J5K7CCG46NH&t=1790018739",
     badge: "NEW"
@@ -7,7 +17,7 @@ const apps = [
   {
     name: "Game Rummy",
     url: "https://gamerummye.com/?code=89SSWWUJHWV&t=1790019666",
-    badge: "HOT"
+    badge: "NEW"
   },
   {
     name: "YONO TOP",
@@ -39,11 +49,7 @@ const apps = [
     url: "https://goldrummy1.com/?code=JLXA5KYA9HF&t=1790021210",
     badge: "HOT"
   },
-  {
-    name: "Spin Winner",
-    url: "https://pspinwinner.com/?code=SDND6XPM7GA&t=1790021813",
-    badge: "NEW"
-  }
+
 ];
 
 const cards = document.getElementById("cards");
