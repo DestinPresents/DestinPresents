@@ -8,7 +8,7 @@ const apps = [
     name: "Ok Rummy",
     url: "https://www.okrummy18.com/?code=H2GGDU7RSBW&t=1790188944",
     badge: "HOT"
-}
+},
   {
     name: "Joy Rummy 11",
     url: "https://www.joyrummy11.com/?code=J5K7CCG46NH&t=1790018739",
