@@ -5,8 +5,8 @@ const apps = [
     badge: "HOT"
   },
     {
-    name: "JAIHO SPIN",
-    url: "https://rummyzip4.com/?code=7TAACK8FPWJ&t=1790233382",
+    name: "Rummy Zip",
+    url: "https://rummyzip2.com/?code=7TAACK8FPWJ&t=1790247161",
     badge: "HOT"
   },
   {
