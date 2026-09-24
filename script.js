@@ -5,8 +5,18 @@ const apps = [
     badge: "HOT"
   },
   {
+    name: "JaiHo Cloud",
+    url: "https://jaihoclud.com/?code=E74GT2ZBVS6&t=1790221269",
+    badge: "HOT"
+},
+  {
     name: "Ok Rummy",
     url: "https://www.okrummy18.com/?code=H2GGDU7RSBW&t=1790188944",
+    badge: "HOT"
+},
+  {
+    name: "Ind Club",
+    url: "https://indclubjjj.com/?code=34ULJ13EXHT&t=1790223546",
     badge: "HOT"
 },
   {
