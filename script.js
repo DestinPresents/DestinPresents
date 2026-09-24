@@ -4,6 +4,11 @@ const apps = [
     url: "https://pspinwinner.com/?code=SDND6XPM7GA&t=1790021813",
     badge: "HOT"
   },
+    {
+    name: "JAIHO SPIN",
+    url: "https://rummyzip4.com/?code=7TAACK8FPWJ&t=1790233382",
+    badge: "HOT"
+  },
   {
     name: "JaiHo Cloud",
     url: "https://jaihoclud.com/?code=E74GT2ZBVS6&t=1790221269",
