@@ -4,13 +4,8 @@ const apps = [
     url: "https://pspinwinner.com/?code=SDND6XPM7GA&t=1790021813",
     badge: "HOT"
   },
-    {
-    name: "Rummy Zip",
-    url: "https://rummyzip2.com/?code=7TAACK8FPWJ&t=1790247161",
-    badge: "HOT"
-  },
-  {
-    name: "JaiHo Cloud",
+     {
+    name: "JaiHo Rummy",
     url: "https://jaihoclud.com/?code=E74GT2ZBVS6&t=1790221269",
     badge: "HOT"
 },
@@ -22,49 +17,23 @@ const apps = [
   {
     name: "Ind Club",
     url: "https://indclubjjj.com/?code=34ULJ13EXHT&t=1790223546",
-    badge: "HOT"
+    badge: "NEW"
 },
   {
     name: "Joy Rummy 11",
     url: "https://www.joyrummy11.com/?code=J5K7CCG46NH&t=1790018739",
-    badge: "NEW"
+    badge: "HOT"
   },
   {
-    name: "Game Rummy",
-    url: "https://gamerummye.com/?code=89SSWWUJHWV&t=1790019666",
-    badge: "NEW"
-  },
-  {
-    name: "YONO TOP",
+    name: "IND Rummy",
     url: "https://yonocom.net/?code=2BAMQ4EMXL4&t=1790019715",
     badge: "NEW"
   },
   {
     name: "Jai Slots VIP",
     url: "https://www.jaihoslotsvip.com/?code=EGPX7VR84NA&t=1790019751",
-    badge: "HOT"
-  },
-  {
-    name: "INR Rummy",
-    url: "https://www.inrrummy.vip/?code=JMQTBKBLE9X&t=1790020389",
     badge: "NEW"
   },
-  {
-    name: "Win Rummy",
-    url: "https://www.winrummy46.com/?code=8JTCD7VCZ5C&t=1790020543",
-    badge: "HOT"
-  },
-  {
-    name: "D. Rummy",
-    url: "https://www.drummy91.com/?code=4KT4GF3SGAC&t=1790020619",
-    badge: "NEW"
-  },
-  {
-    name: "Gold Rummy",
-    url: "https://goldrummy1.com/?code=JLXA5KYA9HF&t=1790021210",
-    badge: "HOT"
-  },
-
 ];
 
 const cards = document.getElementById("cards");
